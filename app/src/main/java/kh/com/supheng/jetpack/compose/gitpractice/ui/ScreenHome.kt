@@ -6,6 +6,6 @@ import androidx.compose.runtime.Composable
 @Composable
 fun ScreenHome(){
     Text(
-        text = "Hello 1"
+        text = "Hello 3"
     )
 }
