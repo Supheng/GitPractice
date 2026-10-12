@@ -6,7 +6,7 @@ plugins {
 android {
     namespace = "kh.com.supheng.jetpack.compose.gitpractice"
     compileSdk {
-        version = release(36) {
+        version = release(37) {
             minorApiLevel = 1
         }
     }
@@ -53,4 +53,15 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
+    // Retrofit: HTTP requests
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")
+
+// Convert JSON to Kotlin objects
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+
+// ViewModel for Compose
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
+
+// Collect state safely in Compose
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.7")
 }
