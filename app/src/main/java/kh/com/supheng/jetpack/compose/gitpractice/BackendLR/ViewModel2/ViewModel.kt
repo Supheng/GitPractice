@@ -1,8 +1,8 @@
-package kh.com.supheng.jetpack.compose.gitpractice.BackendLR.ViewModel
+package kh.com.supheng.jetpack.compose.gitpractice.BackendLR.ViewModel2
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import kh.com.supheng.jetpack.compose.gitpractice.BackendLR.Repository.AuthRepository
+import kh.com.supheng.jetpack.compose.gitpractice.BackendLR.Repository3.AuthRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch

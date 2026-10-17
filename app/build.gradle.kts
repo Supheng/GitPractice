@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -64,4 +65,10 @@ dependencies {
 
 // Collect state safely in Compose
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.7")
+// Fire Base
+    implementation(platform("com.google.firebase:firebase-bom:35.0.1"))
+    implementation("com.google.firebase:firebase-auth")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.10.2")
+// Navigation
+    implementation("androidx.navigation:navigation-compose:2.9.6")
 }

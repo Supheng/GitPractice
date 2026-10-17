@@ -1,9 +1,7 @@
-package kh.com.supheng.jetpack.compose.gitpractice.BackendLR.Retrofit
+package kh.com.supheng.jetpack.compose.gitpractice.BackendLR.Retrofit4
 
-import com.google.gson.GsonBuilder
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 
 object RetrofitInstance {
 

@@ -1,9 +1,9 @@
-package kh.com.supheng.jetpack.compose.gitpractice.BackendLR.Repository
+package kh.com.supheng.jetpack.compose.gitpractice.BackendLR.Repository3
 
 import kh.com.supheng.jetpack.compose.gitpractice.BackendLR.Model.AuthResponse
 import kh.com.supheng.jetpack.compose.gitpractice.BackendLR.Model.LoginRequest
 import kh.com.supheng.jetpack.compose.gitpractice.BackendLR.Model.RegisterRequest
-import kh.com.supheng.jetpack.compose.gitpractice.BackendLR.Retrofit.RetrofitInstance
+import kh.com.supheng.jetpack.compose.gitpractice.BackendLR.Retrofit4.RetrofitInstance
 
 class AuthRepository {
 
@@ -17,14 +17,14 @@ class AuthRepository {
         )
     }
 
-    suspend fun login(
-        email: String,
-        password: String
-    ): Result<String> = requestResult {
-        RetrofitInstance.api.login(
-            LoginRequest(email, password)
-        )
-    }
+        suspend fun login(
+            email: String,
+            password: String
+        ): Result<String> = requestResult {
+            RetrofitInstance.api.login(
+                LoginRequest(email, password)
+            )
+        }
 
     private suspend fun requestResult(
         request: suspend () -> retrofit2.Response<AuthResponse>

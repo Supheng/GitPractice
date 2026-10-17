@@ -1,0 +1,7 @@
+package kh.com.supheng.jetpack.compose.gitpractice.WithFirebase.Auth
+
+data class AuthUiState(
+    val isLoading : Boolean = false,
+    val isLoggedIn : Boolean = false,
+    val errorMessage : String? = null
+)

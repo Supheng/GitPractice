@@ -1,4 +1,4 @@
-package kh.com.supheng.jetpack.compose.gitpractice.BackendLR.ViewModel
+package kh.com.supheng.jetpack.compose.gitpractice.BackendLR.ViewModel2
 
 sealed interface AuthUiState {
     data object Idle : AuthUiState

@@ -1,4 +1,4 @@
-package kh.com.supheng.jetpack.compose.gitpractice.BackendLR.Screen
+package kh.com.supheng.jetpack.compose.gitpractice.BackendLR.Screen1
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -10,8 +10,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import kh.com.supheng.jetpack.compose.gitpractice.BackendLR.ViewModel.AuthUiState
-import kh.com.supheng.jetpack.compose.gitpractice.BackendLR.ViewModel.AuthViewModel
+import kh.com.supheng.jetpack.compose.gitpractice.BackendLR.ViewModel2.AuthUiState
+import kh.com.supheng.jetpack.compose.gitpractice.BackendLR.ViewModel2.AuthViewModel
 
 @Composable
 fun AuthScreen(viewModel: AuthViewModel) {
